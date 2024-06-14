@@ -1,0 +1,10 @@
+file=open("C:/Dinesh/python.txt","w")
+str=file.write('Hello Moni')
+print(str)
+file.close()
+
+file=open("C:/Dinesh/python.txt","w")
+print(file.name)
+print(file.mode)
+print(file.write('Hi Moni'))
+file.close()
